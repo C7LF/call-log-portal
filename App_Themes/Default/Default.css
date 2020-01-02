@@ -1,0 +1,231 @@
+﻿body {
+    padding:0;
+    margin:0;
+    font-family: 'Lato', sans-serif !important;
+}
+.ErrorMessage {
+    color: #d30000;
+}
+p {
+    color: #fff;
+}
+h1,h2,h3,h4 {
+    color:#fff;
+}
+h1{font-size:30px}h2{font-size:25px}h3{font-size:20px}
+.mainPageImage {
+    height:100vh;
+    background: url(/images/adult-beard-business.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.cardl {
+    background-color:#000D26;
+    padding:20px;
+    align-items:center;
+}
+.cardh {
+    padding:20px 0px 30px 0px;
+}
+label {
+    color:#fff !important;
+    font-size:14px;
+}
+.lightblueButton {
+    background-color:#34ADDA;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    padding:6px 15px 6px 15px;
+    font-size:14px;
+}
+.lightblueButton:hover {
+    background-color:#1c91bc;
+}
+.cardf {
+    background-color: #000711;
+    color:#fff;
+    margin-left:-20px;
+    margin-right:-20px;
+    margin-bottom:-20px;
+    padding:15px;
+    margin-top:20px;
+    font-size:14px;
+}
+.cardf i {
+    font-size:20px;
+}
+.cardf a {
+    font-size:9px !important;
+    color:#28ACE2;
+}
+.error {
+    color:red;
+}
+.topbar {
+    background-color:#000916;
+    color:#fff;
+    padding:15px 70px 15px 15px;
+    margin-left:-15px !important;
+    margin-right:-15px !important;
+}
+.largemenu ul {
+    margin-top:30px;
+    padding:0px;
+    list-style-type:none;
+}
+.largemenu ul a {
+    width:100%;
+    padding:18px;
+    display:block;
+    color:#DDDDDD;
+    font-weight:100;
+}
+.largemenu ul i {
+    padding-right:10px;
+}
+.active {
+    background-color:#081B33 !important;
+}
+.active:after {
+    width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  display:inline-block;
+  border-left: 15px solid #081B33;
+  content: '';
+  position:absolute;
+  right:0;
+  z-index:9999;
+  margin-right:-15px;
+  margin-top:-2px;
+}
+.largemenu ul a:hover {
+    text-decoration:none;
+}
+.accicon {
+    padding: 10px 0px;
+    font-size: 16px;
+}
+.accicon a {
+    color:#f4f4f4;
+}
+.accicon a:hover {
+    color:#f4f4f4;
+    text-decoration:none
+}
+.accicon i {
+    margin-left: 10px;
+    font-size: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.accicon .dropdown-toggle {
+    color:#f4f4f4;
+}
+.accicon .dropdown-toggle:hover {
+    text-decoration:none;
+}
+.dropdown-menu {
+    background-color:#000916 !important;
+    margin-top:15px !important;
+}
+.dropdown-item {
+    color:#e5e5e5 !important;
+}
+.dropdown-item:hover {
+    background-color:#000000 !important;
+}
+.thindf {
+    font-weight:100;
+}
+.largemenu {
+    background-color:#000916;
+    padding-top:15px;
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+.mainbody {
+    background-color:#040F1E;
+    min-height:100vh;
+}
+.summarybox {
+    background-color:#091C33;
+    color:#fff;
+    padding:25px;
+}
+.ydd {
+    font-weight:100;
+}
+.pagecontent {
+    padding:50px;
+}
+.one, .two, .three {
+    color:#fff;
+}
+.numberm {
+    font-size:60px !important;
+    font-weight:bold !important;
+}
+.missed {
+    color:#ba0000;
+}
+.noeditarea {
+    color:#bfbfbf !important;
+}
+#adminCollapse {
+    background-color:#000205;
+}
+#coc {
+    font-size:15px;
+    font-weight:bold;
+}
+.adminbutton {
+    background-color:#000711;
+}
+#adminCollapse li {
+    font-size: 13px;
+}
+.table-dark {
+    background-color:#000916 !important;
+}
+.table-dark th {
+    background-color: #0e2a42 !important;
+}
+.table td {
+    font-size:13px;
+}
+.searchbarau {
+    padding:7px;
+    border-radius:5px;
+    background-color:#00060f;
+    color:#fff;
+    border:none;
+}
+span {
+    color:#fff;
+}
+.secondLvl {
+    margin-top:70px;
+}
+.alusers i {
+    font-size:22px;
+}
+.alusers .fa-times {
+    margin-left:10px;
+    font-size:24px;
+    color:red;
+}
+.ui-datepicker-title span, .ui-datepicker-calendar span {
+    color: #000 !important;
+}
+/* Inner page controls */
+select {
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+    color: #fff !important;
+}
+

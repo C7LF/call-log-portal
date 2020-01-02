@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="dashboard.master.cs" Inherits="dashboard_dashboard" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 largemenu text-center">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/advertel-logo.png" Width="80%" />
+            <ul class="text-left">
+                <li><a id="default" href="/dashboard/Default.aspx"><i class="fas fa-tachometer-alt"></i> Summary</a></li>
+                <li><a id="call-logs" href="/dashboard/call-logs.aspx"><i class="fas fa-database"></i> Call Logs</a></li>
+                <li><a id="search" href="/dashboard/search.aspx"><i class="fas fa-search"></i> Search / Export</a></li>
+                <li><a id="settings" href="/dashboard/settings.aspx"><i class="fas fa-cog"></i>Settings</a></li>
+                <asp:LoginView ID="LoginView1" runat="server">
+                    <RoleGroups>
+                        <asp:RoleGroup Roles="Admin">
+                            <ContentTemplate>
+                                <li class="adminbutton"><a data-toggle="collapse" href="#adminCollapse" role="button" aria-expanded="false" aria-controls="adminCollapse"><i class="fas fa-unlock-alt"></i>Admin<span class="float-right" id="coc"></span></a></li>
+                                <div class="collapse" id="adminCollapse">
+                                    <li><a id="all-users" href="/dashboard/admin/all-users.aspx">All Users</a></li>
+                                    <li><a id="new-user" href="/dashboard/admin/new-user.aspx">Add New User</a></li>
+                                </div>
+                            </ContentTemplate>
+                        </asp:RoleGroup>
+                    </RoleGroups>
+                </asp:LoginView>
+            </ul>
+        </div>
+        <div class="mainbody col-sm-10">
+            <div class="topbar">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="accicon thindf">
+                            <i class="far fa-question-circle"></i>&nbsp; <a href="/dashboard/help-support">Help and Support</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                            <asp:Button ID="Button1" runat="server" Text='Update Records' OnClick="Button1_Click" CssClass="btn btn-secondary" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 usernamearea text-right">
+                        <div class="accicon">
+                            <i class="fas fa-user-circle"></i>&nbsp; <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><asp:LoginName ID="LoginName1" runat="server" /></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <asp:HyperLink ID="HyperLink1" CssClass="dropdown-item" runat="server" NavigateUrl="~/dashboard/account/my-account.aspx">My Account</asp:HyperLink>
+                                <asp:LoginStatus ID="LoginStatus1" CssClass="dropdown-item" runat="server" LogoutAction="Redirect" LogoutPageUrl="~/" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagecontent">
+                <asp:ContentPlaceHolder ID="MainContentArea" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $('#<%= GetActive()%>').addClass("active");
+
+    $( function() {
+        $(".datepicker").datepicker();
+    });
+
+    $(document).ready(function () {
+        $("#coc").html("+");
+        $('#adminCollapse').on('shown.bs.collapse', function () {
+            $("#coc").html("-");
+        });
+
+        $('#adminCollapse').on('hidden.bs.collapse', function () {
+            $("#coc").html("+");
+        });
+    });
+    
+</script>
+</asp:Content>
+
+

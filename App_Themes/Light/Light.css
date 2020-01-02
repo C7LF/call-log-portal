@@ -1,0 +1,291 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.ErrorMessage {
+    color: #d30000;
+}
+
+p {
+    color: #000;
+}
+
+h1, h2, h3, h4 {
+    color: #000;
+}
+
+h1 {
+    font-size: 30px
+}
+
+h2 {
+    font-size: 25px
+}
+
+h3 {
+    font-size: 20px
+}
+
+.mainPageImage {
+    height: 100vh;
+    background: url(/images/adult-beard-business.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cardl {
+    background-color: #000D26;
+    padding: 20px;
+    align-items: center;
+}
+
+.cardh {
+    padding: 20px 0px 30px 0px;
+}
+
+label {
+    color: #000 !important;
+    font-size: 14px;
+}
+
+.lightblueButton {
+    background-color: #34ADDA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 15px 6px 15px;
+    font-size: 14px;
+}
+
+    .lightblueButton:hover {
+        background-color: #1c91bc;
+    }
+
+.cardf {
+    background-color: #000711;
+    color: #fff;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+    .cardf i {
+        font-size: 20px;
+    }
+
+    .cardf a {
+        font-size: 9px !important;
+        color: #28ACE2;
+    }
+
+.error {
+    color: red;
+}
+
+.topbar {
+    background-color: #e4e4e4;
+    color: #000;
+    padding: 15px 70px 15px 15px;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+
+.largemenu ul {
+    margin-top: 30px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+    .largemenu ul a {
+        width: 100%;
+        padding: 18px;
+        display: block;
+        color: #000;
+        font-weight: 100;
+    }
+
+    .largemenu ul i {
+        padding-right: 10px;
+    }
+
+.active {
+    background-color: #c7c7c7 !important;
+}
+
+    .active:after {
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        display: inline-block;
+        border-left: 15px solid #c7c7c7;
+        content: '';
+        position: absolute;
+        right: 0;
+        z-index: 9999;
+        margin-right: -15px;
+        margin-top: -2px;
+    }
+
+.largemenu ul a:hover {
+    text-decoration: none;
+}
+
+.accicon {
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+    .accicon a {
+        color: #000;
+    }
+
+        .accicon a:hover {
+            color: #000;
+            text-decoration: none
+        }
+
+    .accicon i {
+        margin-left: 10px;
+        font-size: 30px;
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    .accicon .dropdown-toggle {
+        color: #000;
+    }
+
+        .accicon .dropdown-toggle:hover {
+            text-decoration: none;
+        }
+
+.dropdown-menu {
+    background-color: #fff !important;
+    margin-top: 15px !important;
+}
+
+.dropdown-item {
+    color: #000 !important;
+}
+
+    .dropdown-item:hover {
+        background-color: #E4E4E4 !important;
+    }
+
+.thindf {
+    font-weight: 100;
+}
+
+.largemenu {
+    background-color: #e4e4e4;
+    padding-top: 15px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.mainbody {
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.summarybox {
+    background-color: #e4e4e4;
+
+    color: #fff;
+    padding: 25px;
+}
+
+.ydd {
+    font-weight: 100;
+}
+
+.pagecontent {
+    padding: 50px;
+}
+
+.one, .two, .three {
+    color: #fff;
+}
+
+.numberm {
+    font-size: 60px !important;
+    font-weight: bold !important;
+}
+
+.missed {
+    color: #ba0000;
+}
+
+.noeditarea {
+    color: #bfbfbf !important;
+}
+
+#adminCollapse {
+    background-color: #afafaf;
+}
+
+#coc {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.adminbutton {
+    background-color: #afafaf;
+}
+
+#adminCollapse li {
+    font-size: 13px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05) !important;
+}
+.table-dark {
+    background-color: #fdfdfe !important;
+    color:#000;
+}
+
+.searchbarau {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #E4E4E4;
+    color: #000;
+    border: none;
+}
+
+span {
+    color: #000;
+}
+
+.secondLvl {
+    margin-top: 70px;
+}
+
+.alusers i {
+    font-size: 22px;
+}
+
+.alusers .fa-times {
+    margin-left: 10px;
+    font-size: 24px;
+    color: red;
+}
+
+.ui-datepicker-title span, .ui-datepicker-calendar span {
+    color: #000 !important;
+}
+/* Inner page controls */
+select {
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+    color: #fff !important;
+}
+
