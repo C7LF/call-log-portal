@@ -9,10 +9,10 @@ While studying at university, I worked with a local telecomatics company who spe
 The application was built using ASP.Net, C# and JavaScript. SSH.Net and Bootstrap 4 has also been used to speed up development time. The call data is retrieved via SFTP and converted into the correct format using Regex to then store locally in an MS SQL database.
 
 **Screenshots:**
-![Login](http://c7-dev.co.uk/img/advertel-screenshots/login-page.PNG "Login")
+![Login](https://i.imgur.com/mvNBb1c.png "Login")
 
-![Dashboard](http://c7-dev.co.uk/img/advertel-screenshots/advertel%20screenshots.PNG "Dashboard")
+![Dashboard](https://i.imgur.com/bM1Dbmj.png "Dashboard")
 
-![Search](http://c7-dev.co.uk/img/advertel-screenshots/search-form.PNG "Search")
+![Search](https://i.imgur.com/5L60CTh.png "Search")
 
 **Note:** There is no private data contained within the code or screenshots. Only sample data.
